@@ -1,18 +1,4 @@
 <?xml version="1.0"?>
 <odoo>
-    <record id="estate_view_tree" model="ir.ui.view">
-        <field name="name">estate.property.list</field>
-        <field name="model">estate.property</field>
-        <field name="arch" type="xml">
-            <list string="Tests">
-                <field name="name"/>
-                <field name="postcode"/>
-                <field name="bedroom_count"/>
-                <field name="living_area_sqm_rounded"/>
-                <field name="expected_price"/>
-                <field name="selling_price"/>
-                <field name="availability_date"/>
-            </list>
-        </field>
-    </record>
+
 </odoo>
