@@ -4,7 +4,7 @@ from odoo import models, fields
 
 class EstateProperties(models.Model):
     _name = "estate.property"
-    _description = "Pluri Select Estate Properties"
+    _description = "PluriSelect Estate Properties"
 
     name = fields.Char(string="Title", required=True)
     active = fields.Boolean(default=True)
@@ -26,7 +26,7 @@ class EstateProperties(models.Model):
     )
     state = fields.Selection(
         string="State",
-        selection=[("new", "New"), ("offer Recieved", "Offer Received"), ("offer Accepted", "Offer Accepted"), ("sold", "Sold"), ("cancelled", "Cancelled")],
+        selection=[("new", "New"), ("offer_received", "Offer Received"), ("offer_accepted", "Offer Accepted"), ("sold", "Sold"), ("cancelled", "Cancelled")],
         help="in which state the selling is, one of these [New, Offer Received, Offer Accepted, Sold]",
         default="new",
         required=True,

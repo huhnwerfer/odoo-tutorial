@@ -33,6 +33,7 @@
 								<field name="has_garden"/>
 								<field name="garden_area_sqm_rounded"/>
 								<field name="garden_orientation"/>
+								<field name="state"/>
 							</group>
 						</page>
 					</notebook>
