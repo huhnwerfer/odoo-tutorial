@@ -7,6 +7,7 @@ class EstateProperties(models.Model):
     _description = "PluriSelect Estate Properties"
 
     name = fields.Char(string="Title", required=True)
+    property_type_id = fields.Many2one("estate.property.type", string="Property Type")
     active = fields.Boolean(default=True)
     description = fields.Text()
     postcode = fields.Char(string="Postcode")

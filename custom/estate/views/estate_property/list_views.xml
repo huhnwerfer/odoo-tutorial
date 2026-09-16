@@ -6,6 +6,7 @@
 		<field name="arch" type="xml">
 			<list string="Tests">
 				<field name="name"/>
+				<field name="property_type_id"/>
 				<field name="postcode"/>
 				<field name="bedroom_count"/>
 				<field name="living_area_sqm_rounded"/>

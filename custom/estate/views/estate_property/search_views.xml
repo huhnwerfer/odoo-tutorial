@@ -6,6 +6,7 @@
 		<field name="arch" type="xml">
 			<search string="Properties">
 				<field name="name"/>
+				<field name="property_type_id"/>
 				<field name="postcode"/>
 				<field name="expected_price"/>
 				<field name="bedroom_count"/>
